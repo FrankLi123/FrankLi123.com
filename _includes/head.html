@@ -3,8 +3,9 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
-  {% assign page_is_article = false %}
-  {% if page.layout == "post" %}{% assign page_is_article = true %}{% endif %}
+ 
+  {% assign page_is_blog = false %}
+  {% if page.layout == "post" %}{% assign page_is_blog = true %}{% endif %}
 
   {% assign page_title = "" %}
   {% if page.draft %}{% assign page_title = page_title | append: "[DRAFT] " %}{% endif %}
@@ -43,7 +44,9 @@
 
   <!-- Open Graph / Facebook -->
   <meta property="og:site_name" content="{{ page_title }}"/>
+  <meta property="og:type" content="{% if page_is_blog %}blog{% else %}website{% endif %}"/>
   <meta property="og:type" content="{% if page_is_article %}article{% else %}website{% endif %}"/>
+  <meta property="og:type" content="{% if page_is_articleCH %}articleCH123{% else %}website{% endif %}"/>
   <meta property="og:url" content="{{ page_url }}"/>
   <meta property="og:title" content="{{ page_title }}"/>
   <meta property="og:description" content="{{ page_description }}"/>

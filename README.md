@@ -63,6 +63,7 @@ header:
     - name: Home
       slug: /     # <-- index.md
     - name: Blog  # <-- blog.md
+    - name: Article  # <-- Article.md
     - name: Whatever  # <-- whatever.md
 ```
 Re-run `jekyll serve` to see the header updated.
@@ -114,6 +115,7 @@ slug: /blog
 This is an example of a "Blog" page, displaying a list of posts.
 <br />
 ```
+
 
 
 Your website is ready!

@@ -14,7 +14,9 @@ header:
     - name: Home
       slug: /
     - name: Work
+    - name: Blog
     - name: Article
+    - name: 文章
 
 footer:
   show_powered_by: true
