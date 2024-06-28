@@ -75,30 +75,15 @@ footer:
   contact:
     - type: email
       name: Email
-      value: yourmail@domain.com
-    - type: wechat
-      value: YourWeChatUsername
-      link: "#"
+      value: f842213079@gmail.com
   follow:
     - type: twitter
       name: Twitter
       link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
-    - type: facebook
-      name: Facebook
-      link: http://facebook.com/YourFacebookUsername
-    - type: linkedin
-      name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
+      username: "@FrankYouChill"
     - type: github
       name: GitHub
       link: http://github.com/YourGitHubUsername
-    - type: dribbble
-      name: Dribbble
-      link: https://dribbble.com/YourDribbbleUsername
-    - type: rss
-      name: RSS
-      link: /feed.xml
 ```
 Re-run `jekyll serve` to see the footer updated.
 
