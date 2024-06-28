@@ -17,6 +17,7 @@ header:
     - name: Blog
     - name: Article
     - name: 文章
+    - name: AboutMe
 
 footer:
   show_powered_by: true
@@ -31,7 +32,7 @@ footer:
       username: "@FrankYouChill"
     - type: github
       name: GitHub
-      link: http://github.com/YourGitHubUsername
+      link: http://github.com/FrankLi123
 
 # Build settings
 markdown: kramdown

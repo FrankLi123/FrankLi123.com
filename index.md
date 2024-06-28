@@ -6,7 +6,7 @@ profile_picture:
 ---
 
 <p>
-  Welcome! This is Frank <a href="http://dangrover.com">website</a>.
+  Welcome! This is Frank, lowkeySmile. Welcome to my personal space. You can find my writing in both English and Chinese version. Also I will share my personal blog. Thanks for visiting ! :)
 </p>
 
 
