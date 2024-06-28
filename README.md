@@ -79,7 +79,7 @@ footer:
   follow:
     - type: twitter
       name: Twitter
-      link: http://twitter.com/YourTwitterUsername
+      link: http://twitter.com/FrankYouChill
       username: "@FrankYouChill"
     - type: github
       name: GitHub
