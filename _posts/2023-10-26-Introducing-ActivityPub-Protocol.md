@@ -40,7 +40,7 @@ The ActivityPub protocol has two parts. One part defines the rules for data tran
 
 Let’s talk more about the technical implementation aspects of ActivityPub, using Twitter-like concepts to illustrate these ideas.
 
-<img src="{{ "/assets/img/content/article/activityPubRoute.png" | absolute_url }}" alt="bay" class="post-pic"/>
+<img src="{{ "/assets/img/content/article/activityPubRoute.png" | relative_url }}" alt="bay" class="post-pic"/>
 
 
 <br />

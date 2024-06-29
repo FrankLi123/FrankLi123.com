@@ -8,7 +8,7 @@ blurb: "让我们谈谈ActivityPub。"
 og_image: /assets/img/content/article/activityPub.png
 ---
 
-<img src="{{ "/assets/img/content/article/activityPub.png" | absolute_url }}" alt="bay" class="post-pic"/>
+<img src="{{ "/assets/img/content/article/activityPub.png" | relative_url }}" alt="bay" class="post-pic"/>
 <br />
 <br />
 
@@ -38,7 +38,7 @@ ActivityPub协议分为**两部分**。一部分制定了**服务器之间**的�
 
 让我们详细探讨一下ActivityPub的技术实现。
 
-<img src="{{ "/assets/img/content/article/activityPubRoute.png" | absolute_url }}" alt="bay" class="post-pic"/>
+<img src="{{ "/assets/img/content/article/activityPubRoute.png" | relative_url }}" alt="bay" class="post-pic"/>
 <br />
 
 ##### **Actor 对象 - 用户如何与网络交互**
