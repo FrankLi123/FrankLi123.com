@@ -14,7 +14,7 @@
           {% for item in page.items %}
           <div class="work-item">
             <img
-              src="{{ item.image.src | absolute_url }}"
+              src="{{ item.image.src | relative_url }}"
               alt="{{ item.image.alt }}"
               class="work-bubble"
             />

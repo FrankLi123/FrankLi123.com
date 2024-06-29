@@ -8,7 +8,7 @@ blurb: "Let's talk about ActivityPub."
 og_image: /assets/img/content/article/activityPub.png
 ---
 
-<img src="{{ "/assets/img/content/article/activityPub.png" | absolute_url }}" alt="bay" class="post-pic"/>
+<img src="{{ "/assets/img/content/article/activityPub.png" | relative_url }}" alt="bay" class="post-pic"/>
 <br />
 <br />
 
