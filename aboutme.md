@@ -1,6 +1,6 @@
 ---
 ---
 
-A youngin from the block like me. Girl are you sure this what you want? 
+Ask about me. I am lowkeysmile.
 
 <br />

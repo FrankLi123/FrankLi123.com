@@ -4,5 +4,5 @@ title: Article
 slug: /article
 ---
 
-This is an example of a "Article" page, displaying a list of articles.
+Here are my recent articles:
 <br />
