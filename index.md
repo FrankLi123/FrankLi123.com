@@ -6,7 +6,7 @@ profile_picture:
 ---
 
 <p>
-  Welcome! This is Frank, lowkeySmile. Thanks for visiting ! :)
+  Welcome! This is Frank, lowkeySmile. Thanks for visiting @#! :)
 </p>
 
 
