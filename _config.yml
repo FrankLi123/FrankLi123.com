@@ -57,11 +57,15 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
+
 # Used for defeating caching
 version: 1
 
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+
+
 
 
 
