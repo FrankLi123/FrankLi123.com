@@ -11,6 +11,9 @@
           <h1 class="page-heading">{{ page.title }}</h1>
           {{ content }}
 
+          {% include post_actions.html %}
+          {% include giscus.html %}
+
           <p class="blog-post-list">
             {% for post in site.posts %}
 
@@ -33,5 +36,8 @@
     {% include footer.html %}
 
     {% include foot.html %}
+    
+    <!-- Add the like button JavaScript -->
+    <script src="{{ '/assets/js/like-button.js' | relative_url }}"></script>
   </body>
 </html>
