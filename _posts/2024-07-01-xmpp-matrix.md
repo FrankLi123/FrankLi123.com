@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "XMPP vs Matrix: A Deep Dive into Decentralized Communication Protocols"
-date: 2024-07-01 10:00:40
+title: "The Future of Decentralized Communication: Federation Instant Messaging (IM) Protocols, from XMPP to Matrix"
+date: 2024-07-16 00:00:00
 type: article
 language: english
 category: decentralization
-category: decentralization
-blurb: "Comparing two major decentralized communication protocols"
-og_image: /assets/img/content/article/xmpp-matrix/header.jpg
+blurb: "Let's talk about the future of decentralized social communication."
+og_image: /assets/img/content/article/7_16_im_protocol/xmpp1.jpeg
 author: LowkeySmile
 ---
 
