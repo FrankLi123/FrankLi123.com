@@ -5,6 +5,7 @@ date:   2024-07-01 00:00:40
 type: article
 language: english
 blurb: "Let's talk about Kaspa."
+category: crypto
 og_image: /assets/img/content/article/kaspa/kaspa_cover.jpeg
 author: LowkeySmile
 ---

@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "介绍ActivityPub协议：联邦网络的基石"
-date:   2024-06-28 10:00:40
+title: "ActivityPub协议：去中心化社交网络的基石"
+date: 2023-10-26 10:00:40
 type: article
 language: chinese
-blurb: "让我们谈谈ActivityPub。"
-og_image: /assets/img/content/article/activityPub.png
+category: decentralization
+blurb: "让我们来了解ActivityPub协议"
+og_image: /assets/img/content/article/activitypub/activitypub_1.jpeg
 ---
 
 <img src="{{ "/assets/img/content/article/activityPub.png" | relative_url }}" alt="bay" class="post-pic"/>
@@ -28,9 +29,9 @@ ActivityPub 是个很有意思的社交网络协议。它允许了不同的社�
 
 什么是网络协议呢？协议也就是网络数据传输的一种规范，它负责制定数据在一个网络传输的规则，例如数据是如何从网络的一端传到另一端的。这要先说说社交网络的背景。互联网上有很多有名的中心化社交媒体产品, 例如我们熟知的instagram、twitter等。它们都有大量活跃用户，运营的公司掌管着这些产品中用户的个人数据、平台的发放的信息内容等。
 
-许多人想要一个去中心化的社交网络, 其中的一个实现方法就是利用 ”**联邦网络**“ - 的由分散式的多个社交网络组成的一个大型社交网络。 而ActivityPub 协议可以作为搭建分散式小网络的桥梁。 只要社交网络的服务器都支持ActivityPub，那么就可以像在**同一个平台**一样信息交流。
+许多人想要一个去中心化的社交网络, 其中的一个实现方法就是利用 "**联邦网络**" - 的由分散式的多个社交网络组成的一个大型社交网络。 而ActivityPub 协议可以作为搭建分散式小网络的桥梁。 只要社交网络的服务器都支持ActivityPub，那么就可以像在**同一个平台**一样信息交流。
 
-ActivityPub协议分为**两部分**。一部分制定了**服务器之间**的信息传输规则。而另一部分制定了**用户和服务器之间**的信息传输规则，允许用户参与网络进行一些活动, 例如发送信息给另一个用户或是获取追踪的人的最新发布消息等。 你可以自己部署一个应用ActivityPub协议的服务器，作为唯一的用户去和其他的服务器分享信息或获取他人信息。你也可以注册成为一个支持ActivityPub协议的服务器用户去做同样的事情。 现在有很多支持ActivityPub的服务器可以选择。举个例子,web3的一些去中心社交ap “**Mastodon**“或”Misskey” 都是联邦网络平台，它们主要提供软件用来搭建一个支持ActivityPub的服务器。当然，在这个平台上也有人运行大型的、专给他人提供使用的服务器, 这样我们可以直接在它们上注册并成为用户。
+ActivityPub协议分为**两部分**。一部分制定了**服务器之间**的信息传输规则。而另一部分制定了**用户和服务器之间**的信息传输规则，允许用户参与网络进行一些活动, 例如发送信息给另一个用户或是获取追踪的人的最新发布消息等。 你可以自己部署一个应用ActivityPub协议的服务器，作为唯一的用户去和其他的服务器分享信息或获取他人信息。你也可以注册成为一个支持ActivityPub协议的服务器用户去做同样的事情。 现在有很多支持ActivityPub的服务器可以选择。举个例子,web3的一些去中心社交ap "**Mastodon**"或"Misskey" 都是联邦网络平台，它们主要提供软件用来搭建一个支持ActivityPub的服务器。当然，在这个平台上也有人运行大型的、专给他人提供使用的服务器, 这样我们可以直接在它们上注册并成为用户。
 
 <br />
 

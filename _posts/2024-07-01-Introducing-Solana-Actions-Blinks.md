@@ -4,6 +4,7 @@ title:  "Solana Actions and Blinks: Bridging Web2 and Web3 for Solana Interactio
 date:   2024-07-06 00:00:40
 type: article
 language: english
+category: crypto
 blurb: "Today, I will introduce the popular new features Solana Actions and Blinks."
 og_image: /assets/img/content/article/7_6_solana_actions/solana_actions_1.jpeg
 author: LowkeySmile

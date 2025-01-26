@@ -4,6 +4,7 @@ title:  "Solana Actions 和 Blinks：搭建了 Web2 通往 Web3 Solana 世界的
 date:   2024-07-06 00:00:40
 type: article
 language: chinese
+category: crypto
 blurb: "今天，我将详细介绍一下 Solana 最近很火的新功能：Solana Actions 和 Blinks。"
 og_image: /assets/img/content/article/7_6_solana_actions/solana_actions_1.jpeg
 author: LowkeySmile

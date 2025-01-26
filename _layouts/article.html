@@ -11,21 +11,46 @@
           <h1 class="page-heading">{{ page.title }}</h1>
           {{ content }}
           
-          <!-- {% if page.type == "article" %} -->
-            {% include comments.html %}
-          <!-- {% endif %} -->
+          {% include comments.html %}
 
+          <!-- AI Articles -->
+          <h2 class="category-heading">AI Articles</h2>
           <p class="blog-post-list">
             {% for post in site.posts %}
-
-            {% if post.draft != true and post.type == "article" and post.language == "english"  %}
-
+              {% if post.draft != true and post.type == "article" and post.language == "english" and post.category == "ai" %}
                 <span class="blog-post-date">{{ post.date | date: "%-m/%-d/%y" }}</span>
                 <a href="{{ post.url | relative_url }}" class="blog-post-title">
                   {{ post.title }}
                 </a>
                 <br />
+              {% endif %}
+            {% endfor %}
+          </p>
 
+          <!-- Cryptocurrency Articles -->
+          <h2 class="category-heading">Cryptocurrency Articles</h2>
+          <p class="blog-post-list">
+            {% for post in site.posts %}
+              {% if post.draft != true and post.type == "article" and post.language == "english" and post.category == "crypto" %}
+                <span class="blog-post-date">{{ post.date | date: "%-m/%-d/%y" }}</span>
+                <a href="{{ post.url | relative_url }}" class="blog-post-title">
+                  {{ post.title }}
+                </a>
+                <br />
+              {% endif %}
+            {% endfor %}
+          </p>
+
+          <!-- Decentralization Articles -->
+          <h2 class="category-heading">Decentralization Articles</h2>
+          <p class="blog-post-list">
+            {% for post in site.posts %}
+              {% if post.draft != true and post.type == "article" and post.language == "english" and post.category == "decentralization" %}
+                <span class="blog-post-date">{{ post.date | date: "%-m/%-d/%y" }}</span>
+                <a href="{{ post.url | relative_url }}" class="blog-post-title">
+                  {{ post.title }}
+                </a>
+                <br />
               {% endif %}
             {% endfor %}
           </p>

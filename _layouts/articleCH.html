@@ -11,21 +11,47 @@
           <h1 class="page-heading">{{ page.title }}</h1>
           {{ content }}
           
-        
           {% include comments.html %}
+
+          <!-- AI Articles -->
+          <h2 class="category-heading">AI 文章</h2>
           <p class="blog-post-list">
             {% for post in site.posts %}
-
-            {% if post.draft != true and post.type == "article" and post.language == "chinese" %}
-
+              {% if post.draft != true and post.type == "article" and post.language == "chinese" and post.category == "ai" %}
                 <span class="blog-post-date">{{ post.date | date: "%-m/%-d/%y" }}</span>
                 <a href="{{ post.url | relative_url }}" class="blog-post-title">
                   {{ post.title }}
                 </a>
                 <br />
-
               {% endif %}
+            {% endfor %}
+          </p>
 
+          <!-- Cryptocurrency Articles -->
+          <h2 class="category-heading">加密货币文章</h2>
+          <p class="blog-post-list">
+            {% for post in site.posts %}
+              {% if post.draft != true and post.type == "article" and post.language == "chinese" and post.category == "crypto" %}
+                <span class="blog-post-date">{{ post.date | date: "%-m/%-d/%y" }}</span>
+                <a href="{{ post.url | relative_url }}" class="blog-post-title">
+                  {{ post.title }}
+                </a>
+                <br />
+              {% endif %}
+            {% endfor %}
+          </p>
+
+          <!-- Decentralization Articles -->
+          <h2 class="category-heading">去中心化文章</h2>
+          <p class="blog-post-list">
+            {% for post in site.posts %}
+              {% if post.draft != true and post.type == "article" and post.language == "chinese" and post.category == "decentralization" %}
+                <span class="blog-post-date">{{ post.date | date: "%-m/%-d/%y" }}</span>
+                <a href="{{ post.url | relative_url }}" class="blog-post-title">
+                  {{ post.title }}
+                </a>
+                <br />
+              {% endif %}
             {% endfor %}
           </p>
         </div>

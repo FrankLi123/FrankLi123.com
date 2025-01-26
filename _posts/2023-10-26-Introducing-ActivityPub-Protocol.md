@@ -4,6 +4,7 @@ title:  "Introducing ActivityPub Protocol: The Keystone in Federated Network"
 date:   2024-06-28 10:00:40
 type: article
 language: english
+category: decentralization
 blurb: "Let's talk about ActivityPub."
 og_image: /assets/img/content/article/activityPub.png
 ---

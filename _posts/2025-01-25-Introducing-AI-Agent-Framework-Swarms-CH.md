@@ -4,6 +4,7 @@ title:  "Swarms框架：一个工业级AI代理框架"
 date:   2025-01-25 10:00:40
 type: article
 language: chinese
+category: ai
 blurb: "让我们来谈谈Swarms框架。"
 og_image: /assets/img/content/article/swarms.png
 ---

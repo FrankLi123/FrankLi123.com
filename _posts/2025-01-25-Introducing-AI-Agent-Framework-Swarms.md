@@ -4,6 +4,7 @@ title:  "Introducing Swarms Framework: An Industrial-Grade AI Agent Framework"
 date:   2025-01-25 10:00:40
 type: article
 language: english
+category: ai
 blurb: "Let's talk about Swarms Framework."
 og_image: /assets/img/content/article/swarms.png
 ---

@@ -5,6 +5,7 @@ date:   2024-07-01 00:00:40
 type: article
 language: chinese
 blurb: "让我们谈论一下 Kaspa."
+category: crypto
 og_image: /assets/img/content/article/kaspa/kaspa_cover.jpeg
 author: LowkeySmile
 ---
