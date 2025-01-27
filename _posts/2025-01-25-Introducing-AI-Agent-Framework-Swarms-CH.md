@@ -72,6 +72,8 @@ Swarms为处理常见的工业挑战提供了解决方案，特别是在大规�
 
 **你对Swarms框架有什么看法？你会考虑在项目中使用它吗？**
 
+Youtube 视频链接：[text](https://www.youtube.com/watch?v=vME7JfaB-EE)
+
 <br />
 
 ##### 注释
