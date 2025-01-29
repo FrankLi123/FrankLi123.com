@@ -9,7 +9,7 @@ blurb: "Let's talk about Sahara.AI"
 og_image: /assets/img/content/article/sahara/sahara_1.png
 ---
 
-<img src="{{ "/assets/img/content/article/2025_1_25_sahara/sahara_1.png" | relative_url }}" alt="sahara" class="post-pic"/>
+<img src="{{ "/assets/img/content/article/2025_1_29_sahara/sahara_1.png" | relative_url }}" alt="sahara" class="post-pic"/>
 <br />
 <br />
 
