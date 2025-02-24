@@ -4,7 +4,7 @@ title: "Sahara.AI – A Promising Future, but a Tough Road Ahead"
 date: 2025-01-29 10:00:40
 type: article
 language: english
-category: ai
+category: none
 blurb: "Let's talk about Sahara.AI"
 og_image: /assets/img/content/article/sahara/sahara_1.png
 ---
